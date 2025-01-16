@@ -5,6 +5,7 @@ The dataset consists of images with a white background.
 ![Classes2](https://github.com/user-attachments/assets/035ddc1b-76bb-4e72-9fe4-42348e72c02d)
 
 To process the dataset, I used semantic segmentation, classifying each pixel as either part of an object or the background. For postprocessing, I extracted the largest contours (objects) and applied the Opening operator, which involves dilation followed by erosion. Finally, I filled the holes in the segmented objects. Some results are shown below.
+
 ![Seg_ex_gorra](https://github.com/user-attachments/assets/8065b6c5-faac-4390-af2c-6fb5a0e515df)
 ![Seg_ex_mouse](https://github.com/user-attachments/assets/fb64a5c0-ed38-4661-9786-dd9e6bead1df)
 
